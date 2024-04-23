@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'StyreneALC-Regular';
+    src: url('/fonts/styrenealc-regular.eot'); /* IE 9 Compatibility Mode */
+    src: url('/fonts/styrenealc-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('/fonts/styrenealc-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/styrenealc-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('/fonts/styrenealc-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/styrenealc-regular.svg#styrenealc-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: #0296ED;
+    justify-content: space-between;
+    width: 1920px;
+    height: 120px;
+    padding: 0 100px 0 100px;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 202px;
+    height: 80px;
+    gap: 30px;
+}
+
+.menu {
+    width: 40px;
+    height: 40px;
+    padding: 10px 5px 10px 5px;
+}
+
+.menu button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.logo_white {
+    width: 132px;
+    height: 80px;
+}
+
+.right_user_bar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 456px;
+    height: 58px;
+    gap: 30px;
+}
+
+.icon_button_white {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    border-radius: 60px;
+    background: #2EB2FF;
+
+}
+
+.user {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 368px;
+    height: 58px;
+}
+
+.system_actions_button_icon {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 328px;
+    height: 58px;
+    gap: 6px;
+    border-radius: 60px;
+    background: #FFFFFF;
+}
+
+.text {
+//styleName: Button/Normal;
+    font-family: StyreneALC-Regular, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: right;
+    color: #0296ED;
+
+}
+
+.more_vert {
+    width: 40px;
+    height: 40px;
+    padding: 6.67px 0 6.67px 0;
+    gap: 0;
+    color: #B1D9EF;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 950px;
+    padding: 0 100px 0 100px;
+    gap: 60px;
+
+
+}
+
+.h1_with_subtitle {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 1720px;
+    height: 110px;
+}
+
+h1 {
+    font-family: StyreneALC-Regular, serif;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 62px;
+    text-align: center;
+    color: #1D1D1D;
+    margin: 0;
+}
+
+h2 {
+    font-family: StyreneALC-Regular, serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #535356;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 1720px;
+    height: 70px;
+    gap: 30px;
+}
+
+.system_actions_button {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 70px;
+    gap: 8px;
+    border-radius: 60px;
+    border: 1px solid #0296ED ;
+
+}
+
+.system_actions_button p {
+/ / styleName: Button / Middle;
+    font-family: StyreneALC-Regular, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #0296ED;
+
+}
+.main_actions_button{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 70px;
+    gap: 6px;
+    border-radius: 60px;
+    background: #0296ED;
+}
+.main_actions_button p {
+/ / styleName: Button / Middle;
+    font-family: StyreneALC-Regular, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
